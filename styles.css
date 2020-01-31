@@ -1,0 +1,35 @@
+body {
+  background-color: #e1f2fb;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 17px;
+  margin: 0;
+
+}
+
+h1 {
+  text-shadow: 3px 2px #e1f2fb;
+}
+
+hr {
+  background-color: #e1f2fb;
+  border-style: dotted none none;
+  border-top-width: 5px;
+  width: 5%;
+}
+img{position: relative;}
+div {
+  background-image: url(https://st2.depositphotos.com/3764539/8227/v/950/depositphotos_82276846-stock-illustration-vector-flat-cartoon-cat-heads.jpg);
+
+}
+.meio {
+  margin-left: 100px;
+}
+.benzinho {
+padding: 40px;
+}
+.cloud1 {left: 1px; top: 500px; }
+.cloud2 {left: 550px; top: 300px; }
+.cloud3 {left: 100px}
+.cloud4 {left: 500px; top: 100px;}
+.cloud5 {left: 500px; top: 700px; }
+.cloud6 {left: 100px; top: 800px; }
