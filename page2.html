@@ -1,18 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Linda dms</title>
-  </head>
-  <body>
-    <form class="" action="index.html" method="post">
-      <label>Your name:</label>
-      <input type="text"><br><br>
-      <label>Your Email: </label>
-      <input type="email" name="" value=""><br>
-      <label>Your Message:</label><br>
-      <textarea name="name" rows="10" cols="30"></textarea><br>
-      <input type="submit">
-    </form>
-  </body>
+
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <title>❤31/03❤</title>
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 200px;
+      opacity: 0.5;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+      animation-name: mymove;
+      animation-duration: 2s;
+      opacity: 1;
+
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <input type="checkbox" id="btnControl" />
+  <label class="btn" for="btnControl"><img src="http://placekitten.com/200/140" id="btnLeft">
+  </label>
+
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <input type="checkbox" id="btnControl" />
+      <label class="btn" for="btnControl">
+        <img src="images/fundo.jpg" alt="" width="600" height="100" >
+      </label>
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <input type="checkbox" id="btnControl" />
+      <label class="btn" for="btnControl">
+        <img src="images/thumbnail_20180805_174949.jpg" alt="" style="transform:rotate(0deg);" alt="Forest" width="600" height="400">
+      </label>
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+
+</body>
+
 </html>
